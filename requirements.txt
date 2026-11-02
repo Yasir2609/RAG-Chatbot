@@ -1,0 +1,64 @@
+# Advanced RAG Project Dependencies
+
+# Core LangChain
+langchain>=0.3.0
+langchain-core
+langchain-community>=0.3.0
+langchain-text-splitters>=0.3.0
+
+# LLM - Groq
+langchain-groq
+groq
+
+# Embeddings - Jina AI
+requests
+httpx
+
+# Vector Databases
+faiss-cpu>=1.8.0
+langchain-pinecone>=0.2.0
+pinecone
+
+# Hybrid Retrieval - BM25
+rank-bm25>=0.2.2
+
+# Reranking - Cross Encoder
+sentence-transformers
+torch
+transformers
+huggingface-hub
+
+# Document Processing
+pypdf>=5.0.0
+docx2txt>=0.8
+python-docx>=1.1.0
+pymupdf
+unstructured
+
+# Web UI
+streamlit>=1.50.0
+
+# Environment Variables
+python-dotenv>=1.0.0
+
+# RAG Evaluation
+ragas
+datasets
+scikit-learn
+
+# Tokenization and Data Processing
+numpy
+pandas
+tiktoken
+
+# Utilities
+pydantic
+tenacity
+tqdm
+orjson
+
+# Sample Document Generation
+reportlab>=4.2.0
+
+# Testing
+pytest>=8.0.0
